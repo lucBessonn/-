@@ -1,0 +1,46 @@
+unit Unit1;
+
+{$mode objfpc}{$H+}
+
+
+interface
+
+uses
+  Classes, SysUtils;
+
+
+  var x,a,b,a1,a2,a0,h,f1,f2,sum:extended;
+    n,i:integer;
+               function f(x:extended):extended;
+               function integral(a,b:extended; n:integer):extended;
+
+
+implementation
+
+
+        function f(x:extended):extended;
+begin
+
+                result:=x;
+
+end;
+
+        function integral(a,b:extended; n:integer):extended;
+        begin
+        h:=(b-a)/n;
+        writeln(h);
+        for i:=0 to n-1  do
+        begin
+        f1:=f(a+i*h);
+        f1:=f(a+(i+1)*h);
+        sum:=sum+(f2+f1)*h*0.5;
+        end;
+        result:=sum;
+        writeln(result);
+        end;
+
+
+
+
+
+         end.

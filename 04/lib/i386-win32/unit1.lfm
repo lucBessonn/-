@@ -1,0 +1,185 @@
+object Form1: TForm1
+  Left = 998
+  Height = 341
+  Top = 840
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 341
+  ClientWidth = 320
+  LCLVersion = '1.6.4.0'
+  object Button1: TButton
+    Left = 176
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'destroy'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 24
+    Height = 25
+    Top = 0
+    Width = 112
+    Caption = 'create dot'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 48
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'show'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 184
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'hide'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 48
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'move to'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Edit1: TEdit
+    Left = 184
+    Height = 28
+    Top = 184
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 5
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 184
+    Height = 28
+    Top = 216
+    Width = 80
+    TabOrder = 6
+    Text = 'Edit2'
+  end
+  object Label2: TLabel
+    Left = 168
+    Height = 20
+    Top = 184
+    Width = 7
+    Caption = 'x'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 167
+    Height = 20
+    Top = 216
+    Width = 7
+    Caption = 'y'
+    ParentColor = False
+  end
+  object Button6: TButton
+    Left = 24
+    Height = 25
+    Top = 24
+    Width = 112
+    Caption = 'create circle'
+    OnClick = Button6Click
+    TabOrder = 7
+  end
+  object Button7: TButton
+    Left = 24
+    Height = 25
+    Top = 48
+    Width = 112
+    Caption = 'create line'
+    OnClick = Button7Click
+    TabOrder = 8
+  end
+  object Button8: TButton
+    Left = 24
+    Height = 25
+    Top = 72
+    Width = 112
+    Caption = 'create square'
+    OnClick = Button8Click
+    TabOrder = 9
+  end
+  object Button9: TButton
+    Left = 24
+    Height = 25
+    Top = 96
+    Width = 112
+    Caption = 'create rectangle'
+    OnClick = Button9Click
+    TabOrder = 10
+  end
+  object Button10: TButton
+    Left = 24
+    Height = 25
+    Top = 120
+    Width = 112
+    Caption = 'create ellips'
+    OnClick = Button10Click
+    TabOrder = 11
+  end
+  object Edit4: TEdit
+    Left = 185
+    Height = 28
+    Top = 288
+    Width = 80
+    TabOrder = 12
+    Text = 'Edit4'
+  end
+  object Edit3: TEdit
+    Left = 185
+    Height = 28
+    Top = 256
+    Width = 80
+    OnChange = Edit3Change
+    TabOrder = 13
+    Text = 'Edit3'
+  end
+  object Label4: TLabel
+    Left = 168
+    Height = 20
+    Top = 288
+    Width = 15
+    Caption = 'y2'
+    ParentColor = False
+    OnClick = Label4Click
+  end
+  object Label1: TLabel
+    Left = 168
+    Height = 20
+    Top = 256
+    Width = 15
+    Caption = 'x2'
+    ParentColor = False
+  end
+  object Button11: TButton
+    Left = 179
+    Height = 25
+    Top = 31
+    Width = 75
+    Caption = 'Button11'
+    OnClick = Button11Click
+    TabOrder = 14
+  end
+  object Button12: TButton
+    Left = 236
+    Height = 25
+    Top = 64
+    Width = 75
+    Caption = 'Button12'
+    OnClick = Button12Click
+    TabOrder = 15
+  end
+end

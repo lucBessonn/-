@@ -1,0 +1,135 @@
+object Form1: TForm1
+  Left = 1049
+  Height = 407
+  Top = 254
+  Width = 506
+  Caption = 'Form1'
+  ClientHeight = 407
+  ClientWidth = 506
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 120
+    Height = 20
+    Top = 72
+    Width = 26
+    Caption = 'a1='
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Edit1: TEdit
+    Left = 144
+    Height = 28
+    Top = 69
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 28
+    Top = 69
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 119
+    Height = 20
+    Top = 104
+    Width = 27
+    Caption = 'b1='
+    ParentColor = False
+    OnClick = Label5Click
+  end
+  object Label6: TLabel
+    Left = 120
+    Height = 20
+    Top = 128
+    Width = 23
+    Caption = 'r2='
+    ParentColor = False
+    OnClick = Label6Click
+  end
+  object Label7: TLabel
+    Left = 119
+    Height = 20
+    Top = 152
+    Width = 23
+    Caption = 'r3='
+    ParentColor = False
+    OnClick = Label7Click
+  end
+  object Label11: TLabel
+    Left = 100
+    Height = 20
+    Top = 176
+    Width = 42
+    Caption = 'r2-r3='
+    ParentColor = False
+    OnClick = Label11Click
+  end
+  object Label12: TLabel
+    Left = 64
+    Height = 20
+    Top = 200
+    Width = 80
+    Caption = 'r2*r2-r3*r3='
+    ParentColor = False
+    OnClick = Label12Click
+  end
+  object Memo1: TMemo
+    Left = 88
+    Height = 138
+    Top = 256
+    Width = 384
+    Lines.Strings = (
+      'Memo1'
+    )
+    OnChange = Memo1Change
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    Left = 144
+    Height = 28
+    Top = 104
+    Width = 80
+    OnChange = Edit3Change
+    ReadOnly = True
+    TabOrder = 3
+    Text = 'Edit3'
+  end
+  object Edit4: TEdit
+    Left = 144
+    Height = 28
+    Top = 128
+    Width = 80
+    TabOrder = 4
+    Text = 'Edit4'
+  end
+  object Edit5: TEdit
+    Left = 144
+    Height = 28
+    Top = 152
+    Width = 80
+    TabOrder = 5
+    Text = 'Edit5'
+  end
+  object Edit6: TEdit
+    Left = 144
+    Height = 28
+    Top = 176
+    Width = 80
+    TabOrder = 6
+    Text = 'Edit6'
+  end
+  object Edit7: TEdit
+    Left = 144
+    Height = 28
+    Top = 200
+    Width = 80
+    TabOrder = 7
+    Text = 'Edit7'
+  end
+end

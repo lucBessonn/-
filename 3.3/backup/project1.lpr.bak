@@ -1,0 +1,24 @@
+program project1;
+var r:extended; n,j:integer;
+     function fact(n:integer):extended;
+  begin
+      r:=1;
+      for j:=1 to n
+          do r:=r*j;
+     result:=r
+     end;
+
+  function str(n:Integer):Extended;
+begin
+      r:=exp(n*ln(n)-n)*sqrt(2*pi*n)*(1+1/(12*n));
+      result:=r
+end;
+    begin
+         writeln('n','   ','n!','                                       ','strerling');
+      for j:=1 to 200
+          do
+          begin
+            writeln(j,'   ',fact(j),'     ',str(j))
+          end;
+      readln;
+end.

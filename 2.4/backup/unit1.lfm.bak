@@ -1,0 +1,150 @@
+object Form1: TForm1
+  Left = 979
+  Height = 404
+  Top = 267
+  Width = 754
+  Caption = 'Form1'
+  ClientHeight = 404
+  ClientWidth = 754
+  LCLVersion = '1.6.4.0'
+  object Edit1: TEdit
+    Left = 280
+    Height = 28
+    Top = 40
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 280
+    Height = 28
+    Top = 64
+    Width = 80
+    TabOrder = 1
+    Text = 'Edit2'
+  end
+  object Label1: TLabel
+    Left = 232
+    Height = 20
+    Top = 40
+    Width = 46
+    Caption = 'enter a'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 232
+    Height = 20
+    Top = 64
+    Width = 47
+    Caption = 'enter b'
+    ParentColor = False
+    OnClick = Label2Click
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 25
+    Top = 104
+    Width = 211
+    Caption = 'Вычислить для типа Extended'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    Left = 275
+    Height = 28
+    Top = 144
+    Width = 80
+    ReadOnly = True
+    TabOrder = 3
+    Text = 'Edit3'
+  end
+  object Edit4: TEdit
+    Left = 275
+    Height = 28
+    Top = 168
+    Width = 80
+    ReadOnly = True
+    TabOrder = 4
+    Text = 'Edit4'
+  end
+  object Edit5: TEdit
+    Left = 275
+    Height = 28
+    Top = 192
+    Width = 80
+    ReadOnly = True
+    TabOrder = 5
+    Text = 'Edit5'
+  end
+  object Edit6: TEdit
+    Left = 275
+    Height = 28
+    Top = 216
+    Width = 80
+    ReadOnly = True
+    TabOrder = 6
+    Text = 'Edit6'
+  end
+  object Label3: TLabel
+    Left = 253
+    Height = 20
+    Top = 144
+    Width = 18
+    Caption = 'a='
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 253
+    Height = 20
+    Top = 168
+    Width = 19
+    Caption = 'b='
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 249
+    Height = 20
+    Top = 192
+    Width = 23
+    Caption = 'r1='
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 248
+    Height = 20
+    Top = 216
+    Width = 23
+    Caption = 'r2='
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 384
+    Height = 384
+    Top = 8
+    Width = 265
+    Lines.Strings = (
+      'Memo1'
+    )
+    OnChange = Memo1Change
+    TabOrder = 7
+  end
+  object Label7: TLabel
+    Left = 253
+    Height = 20
+    Top = 240
+    Width = 23
+    Caption = 'r3='
+    ParentColor = False
+  end
+  object Edit7: TEdit
+    Left = 275
+    Height = 28
+    Top = 240
+    Width = 80
+    ReadOnly = True
+    TabOrder = 8
+    Text = 'Edit7'
+  end
+end

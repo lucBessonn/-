@@ -1,0 +1,19 @@
+program project1;
+uses Unit1;
+
+
+ const n=2;
+type ta=array[0..n-1,0..n-1] of integer;
+var i,k,j:integer;
+  A,B,C:ta;
+  f:textfile;
+      begin
+          writeln('enter A');
+          mat1(A);
+          writeln('enter B');
+          mat2(B);
+          pr(A,B,C,n);
+          wr(C,n);
+
+          readln;
+  end.

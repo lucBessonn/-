@@ -1,0 +1,11 @@
+program project1;
+uses Unit1;
+begin
+     a:=0;
+     b:=1;
+     a1:=1;
+     a2:=0;
+     a0:=0;
+     integral(a,b,100);
+     readln();
+end.

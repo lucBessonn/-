@@ -1,0 +1,76 @@
+unit Unit1;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+      const n=2;
+type ta=array[0..n-1,0..n-1] of integer;
+var i,k,j:integer;
+  A,B,C:ta;
+  f:textfile;
+             procedure mat2(var M:ta);
+           procedure mat1(var M:ta);
+           procedure wr(var A:ta; n:integer);
+           procedure pr(var A,B,C:ta; n:integer);
+implementation
+
+         procedure mat1(var M:ta);
+  begin
+
+    assignFile(f,'A.txt');
+          reset(f);
+for i:=0 to n-1 do
+for j:=0 to n-1 do read(f,M[i,j]);
+closeFile(f);
+  end;
+            procedure mat2(var M:ta);
+  begin
+
+    assignFile(f,'B.txt');
+          reset(f);
+for i:=0 to n-1 do
+for j:=0 to n-1 do read(f,M[i,j]);
+closeFile(f);
+  end;
+
+
+
+      procedure pr(var A,B,C:ta; n:integer);
+       begin
+
+         for i:=0 to n-1
+ do for j:=0 to n-1
+    do
+     begin
+      for k:=0 to n-1
+         do  C[i,j]:=C[i,j]+A[i,k]*B[k,j];
+
+     end;
+         end;
+
+         procedure wr(var A:ta; n:integer);
+         begin
+       for i:=0 to n-1
+ do
+  begin
+  writeln(' ');
+  for j:=0 to n-1
+    do
+     begin
+      write('[',i,',',j,']=',A[i,j],' ');
+
+     end;
+  end;
+       end;
+
+
+
+
+
+
+end.
+
